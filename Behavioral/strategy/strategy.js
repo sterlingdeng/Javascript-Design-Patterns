@@ -65,6 +65,7 @@ const randomIncome = () => {
   const min = 100000;
   return Math.random() * (max - min) + min;
 };
+
 CaDataSet = {
   capitalGains: 0.3,
   property: 0.2,
